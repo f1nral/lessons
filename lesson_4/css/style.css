@@ -1,0 +1,56 @@
+@import url('reset.css');
+
+* {
+	color: cadetblue;
+}
+
+.title {
+	color: red;
+}
+
+#bio {
+	color: blue;
+}
+
+[class^='contents'] {
+	color: pink;
+}
+
+p {
+	color: rgb(171, 182, 143);
+}
+
+li {
+	color: aquamarine;
+}
+
+.site-body h2 {
+	color: blueviolet;
+}
+
+p.text {
+	color: rgb(253, 0, 186);
+}
+
+.work-title.title-list {
+	color: rgb(166, 25, 25);
+}
+
+.list .list-item {
+	color: rgb(0, 255, 4);
+}
+
+.item * {
+	color: rgb(255, 234, 0);
+}
+
+.footer-item > p {
+	color: rgb(180, 12, 252);
+}
+
+.footer-exam ~ .footer-exam p {
+	color: rgb(255, 115, 0);
+}
+.footer-ex + .footer-ex p {
+	color: rgb(234, 2, 255);
+}
