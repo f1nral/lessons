@@ -1,0 +1,132 @@
+@import url('reset.css');
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-SemiBold.woff2') format('woff2');
+	src: url('../fonts/Poppins-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-display: swap;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-Bold.woff2') format('woff2');
+	src: url('../fonts/Poppins-Bold.woff') format('woff');
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Oswald:wght@400;500;600&family=Skranji:wght@400;700&display=swap');
+
+body {
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	text-indent: 10px;
+}
+
+span {
+	text-decoration: line-through;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Skranji', cursive;
+}
+
+h1 {
+	font-size: 50px;
+	text-shadow: 5px 5px 3px #878787;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+.text {
+	color: #bbbb8c;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.navigation {
+	text-align: center;
+}
+
+.list {
+	color: rgb(0, 26, 255);
+}
+
+.sub-title {
+	text-shadow: 2px 2px 3px #fffb00, -2px -2px 3px #0015ff;
+}
+
+ul {
+	color: #f2b9b9;
+}
+.why,
+.project {
+	text-indent: 0;
+}
+.why-title {
+	font-family: 'Poppins';
+	color: #37393f;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+.why-sub-title {
+	font-family: 'Poppins';
+	color: #6b77e5;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+.why-text {
+	color: #7d7d7d;
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.4;
+}
+
+.project-title {
+	color: #37393f;
+	font-family: 'Poppins';
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.project-text {
+	color: #7d7d7d;
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.4;
+}
+
+.project-list {
+	color: #7d7d7d;
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.4;
+	text-indent: 16px;
+}
