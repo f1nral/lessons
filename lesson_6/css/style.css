@@ -103,7 +103,8 @@ h1 {
 	color: #d06b00;
 	font-family: 'Inter', sans-serif;
 	font-size: 28px;
-	margin: 20px 0 13px 0;
+	padding-top: 20px;
+	margin-bottom: 13px;
 }
 
 .jewellery-text h2 {
