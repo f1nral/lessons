@@ -1,0 +1,307 @@
+@import url('fonts.css');
+@import url('reset.css');
+
+@font-face {
+	font-family: 'Causten';
+	src: url('../fonts/Causten-Regular.woff2') format('woff2'),
+		url('../fonts/Causten-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Causten';
+	src: url('../fonts/Causten-Bold.woff') format('woff2'),
+		url('../fonts/Causten-Bold.woff') format('woff');
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Core Sans C';
+	src: url('../fonts/CoreSansC-65Bold.woff2') format('woff2'),
+		url('../fonts/CoreSansC-65Bold.woff') format('woff');
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #37393f;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+
+.content {
+	max-width: 1218px;
+	margin: 150px auto;
+	border: 2px solid #7d7d7d;
+}
+
+.head {
+	width: 296px;
+	margin: 0 auto 70px auto;
+}
+
+.image-text-head {
+	margin-bottom: 16px;
+}
+
+.head p {
+	display: inline-block;
+	color: #37393f;
+	font-weight: 500;
+}
+
+.image-head {
+	vertical-align: middle;
+	padding-left: 47px;
+}
+
+.title-head {
+	font-size: 60px;
+	line-height: 1.2;
+}
+
+.graphics {
+	margin-bottom: 100px;
+}
+
+.graphics p {
+	color: #7d7d7d;
+	line-height: 1.4;
+	margin-bottom: 32px;
+}
+
+.title-graphics {
+	font-size: 40px;
+	line-height: 1.2;
+	margin-bottom: 11px;
+}
+.sub-title-graphics {
+	font-size: 30px;
+}
+
+.sub-title-graphics span {
+	color: #40ddb6;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.license {
+	margin-bottom: 100px;
+}
+.photography-license {
+	margin-bottom: 24px;
+}
+.title-photography-license {
+	font-size: 40px;
+	line-height: 1.2;
+	margin-bottom: 11px;
+}
+
+.photography-license p {
+	color: #7d7d7d;
+	line-height: 1.4;
+}
+
+.pexels-license {
+	margin-bottom: 24px;
+}
+.sub-title-pexels-license {
+	font-size: 30px;
+	margin-bottom: 8px;
+}
+
+.sub-title-pexels-license span {
+	color: #40ddb6;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.pexels-license p {
+	color: #40ddb6;
+	font-weight: 400;
+	line-height: 1.4;
+}
+
+.unsplash-license p {
+	color: #40ddb6;
+	font-weight: 400;
+	line-height: 1.4;
+}
+.sub-title-unsplash-license {
+	font-size: 30px;
+	margin-bottom: 8px;
+}
+
+.sub-title-unsplash-license span {
+	color: #40ddb6;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.fonts {
+	max-width: 739px;
+}
+.title-fonts {
+	font-size: 40px;
+	line-height: 1.2;
+	margin-bottom: 11px;
+}
+
+.fonts p {
+	color: #7d7d7d;
+	line-height: 1.4;
+}
+
+.fonts span {
+	color: #40ddb6;
+	font-weight: 500;
+	line-height: 1.4;
+}
+
+.project {
+	max-width: 830px;
+	margin: 0 auto;
+}
+.title-project {
+	font-size: 40px;
+	line-height: 1.2;
+	margin-bottom: 13px;
+}
+.text-project {
+	color: #7d7d7d;
+	line-height: 1.4;
+	margin-bottom: 35px;
+}
+
+.text-project p {
+	margin-bottom: 30px;
+}
+
+.list-project {
+	font-weight: 500;
+	color: #7d7d7d;
+	line-height: 1.4;
+	padding-left: 16px;
+	margin-bottom: 35px;
+}
+
+.clothing {
+	max-width: 1240px;
+	margin: 0 auto;
+	padding-left: 21px;
+	border: 2px dashed #7d7d7d;
+}
+.title-clothing {
+	color: #3c4242;
+	font-family: 'Core Sans C', sans-serif;
+	font-size: 28px;
+	line-height: 33.5px;
+	margin-bottom: 30px;
+}
+.sub-title-clothing {
+	color: #807d7e;
+	font-family: 'Core Sans C', sans-serif;
+	font-size: 20px;
+	line-height: 33.5px;
+	margin-bottom: 25px;
+}
+.text-clothing {
+	color: #807d7e;
+	font-family: 'Causten', sans-serif;
+	font-size: 20px;
+	line-height: 33.5px;
+}
+
+.text-clothing p {
+	margin-bottom: 20px;
+}
+
+.text-clothing span {
+	color: #807d7e;
+	font-family: 'Causten', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 33.5px;
+}
+
+.last-title-clothing {
+	color: #807d7e;
+	font-family: 'Core Sans C', sans-serif;
+	font-size: 20px;
+	line-height: 33.5px;
+}
+
+.jewellery {
+	max-width: 1200px;
+	margin: 50px auto;
+}
+.block-jewellery {
+	max-width: 503px;
+	display: inline-block;
+	margin-right: 75px;
+	vertical-align: middle;
+}
+.sub-title-jewellery {
+	margin: 70px 0 27px 0;
+	color: #d58417;
+	font-family: 'Cormorant Infant', serif;
+	font-size: 20px;
+}
+.title-jewellery {
+	font-family: 'Cormorant Infant', serif;
+	font-size: 64px;
+	margin-bottom: 31px;
+}
+.text-jewellery {
+	color: #606060;
+	font-family: 'Cormorant Infant', serif;
+	font-size: 30px;
+	line-height: 1.4;
+}
+
+.woman-1 {
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 235px;
+	border: 1px solid #502203;
+	max-width: 200px;
+	height: 336px;
+	margin-right: 30px;
+}
+.woman-2 {
+	vertical-align: middle;
+	display: inline-block;
+	border-radius: 235px;
+	border: 1px solid #502203;
+	max-width: 307px;
+	height: 500px;
+}
+
+.image-01 {
+	padding-right: 10px;
+	padding-top: 14px;
+	margin-left: -10px;
+}
+
+.image-02 {
+	padding-right: 11px;
+	padding-top: 19px;
+	margin-left: -10px;
+}
