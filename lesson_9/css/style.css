@@ -1,0 +1,561 @@
+@import url('fonts.css');
+@import url('reset.css');
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-size: 18px;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.why-container {
+	max-width: 702px;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+
+.why {
+	margin-bottom: 20px;
+}
+
+.why-title {
+	color: #37393f;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	line-height: 1.2;
+	margin-bottom: 19px;
+}
+
+.why-text {
+	color: #7d7d7d;
+	line-height: 1.4;
+	margin-bottom: 42px;
+}
+
+.why-text-p2 {
+	color: #7d7d7d;
+	line-height: 1.4;
+	margin-bottom: 40px;
+}
+
+.why-sub-title {
+	color: #6b77e5;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	line-height: 1.2;
+	margin-bottom: 22px;
+}
+.benefits img {
+	margin-right: 29px;
+}
+.benefits-block {
+	display: inline-block;
+	max-width: 332px;
+}
+.benefits-block-title {
+	color: #37393f;
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+.benefits-block-sub-title {
+	color: #40ddb6;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.2;
+	margin-bottom: 21px;
+}
+.benefits-block-list {
+	color: #7d7d7d;
+}
+
+.benefits-block-list li:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.benefits-block-list li::before {
+	content: url(../img/Vector.png);
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.whitecollar {
+	margin-bottom: 20px;
+}
+
+.whitecollar-container {
+	max-width: 675px;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+
+.whitecollar-sub-title {
+	font-weight: 500;
+	color: #37393f;
+	margin-bottom: 16px;
+}
+
+.whitecollar-sub-title::before {
+	content: '';
+	width: 12px;
+	height: 12px;
+	background-color: #40ddb6;
+	margin-right: 6px;
+	display: inline-block;
+	transition: 0.8s;
+}
+
+.whitecollar-sub-title:hover::before {
+	background-color: blueviolet;
+	width: 20px;
+	height: 20px;
+	transition: 0.8s;
+}
+
+.whitecollar-title {
+	color: #37393f;
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
+.whitecollar-text {
+	color: #7d7d7d;
+	line-height: 1.4;
+	margin-bottom: 48px;
+}
+
+.whitecollar-text p:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.vision {
+	max-width: 675px;
+	border: 1px solid #e3e3e3;
+	padding: 28px 41px 28px 38px;
+	margin-bottom: 31px;
+	transition: 0.8s;
+}
+
+.vision:hover {
+	background-color: #7cdcfe;
+	transition: 0.8s;
+}
+.vision-title {
+	color: #37393f;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+.vision-title::before {
+	content: url(../img/Vector.png);
+	vertical-align: middle;
+	padding-right: 19px;
+}
+
+.vision-text {
+	padding-left: 46px;
+	color: #7d7d7d;
+	line-height: 1.4;
+}
+.mision {
+	max-width: 675px;
+	border: 1px solid #e3e3e3;
+	padding: 28px 41px 28px 38px;
+	margin-bottom: 48px;
+	transition: 0.8s;
+}
+.mision:hover {
+	background-color: #fff957;
+	transition: 0.8s;
+}
+.mision-title {
+	color: #37393f;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+.mision-title::before {
+	content: url(../img/Vector.png);
+	vertical-align: middle;
+	padding-right: 19px;
+}
+.mision-text {
+	padding-left: 46px;
+	color: #7d7d7d;
+	line-height: 1.4;
+}
+.whitecollar-button a {
+	background-color: #6b77e5;
+	padding: 21px 35px;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	transition: 0.8s;
+}
+
+.whitecollar-button a:hover {
+	font-size: 20px;
+	background-color: #384ce3;
+	transition: 0.8s;
+}
+.work {
+	margin-bottom: 20px;
+}
+.work-container {
+	max-width: 1235px;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+.work-sub-title {
+	text-align: center;
+	font-weight: 500;
+	color: #37393f;
+	margin-bottom: 16px;
+}
+.work-sub-title::before {
+	content: '';
+	width: 12px;
+	height: 12px;
+	background-color: #40ddb6;
+	margin-right: 6px;
+	display: inline-block;
+	transition: 0.8s;
+}
+.work-sub-title:hover::before {
+	background-color: blueviolet;
+	width: 20px;
+	height: 20px;
+	transition: 0.8s;
+}
+.work-title {
+	text-align: center;
+	color: #37393f;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 41px;
+}
+.block:not(:last-child) {
+	margin-right: 31px;
+}
+
+.block {
+	display: inline-block;
+	max-width: 386px;
+	height: 310px;
+	background-color: #f4f4f4;
+	padding: 58px 43px;
+}
+
+.block-title {
+	color: #37393f;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 25px;
+	line-height: 1.2;
+	margin-bottom: 16px;
+}
+
+.block-text {
+	color: #7d7d7d;
+	text-align: center;
+	line-height: 1.4;
+	margin-bottom: 37px;
+}
+
+.block h4 {
+	color: #6b77e5;
+	text-align: center;
+	font-weight: 600;
+}
+
+.block h4:hover {
+	color: #182bdd;
+}
+
+.block-img {
+	display: block;
+	margin: -91px auto 22px auto;
+}
+
+.jewellery {
+	margin-bottom: 20px;
+}
+.jewellery-container {
+	max-width: 1225px;
+	margin: 0 auto;
+}
+
+.jewellery-head {
+	width: 488px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 150px;
+}
+
+.jewellery-head::after {
+	content: '';
+	max-width: 304px;
+	height: 3px;
+	background-color: #78473b;
+	display: block;
+	margin-top: 13px;
+}
+
+.jewellery-title {
+	color: #000;
+	font-family: 'Cormorant Infant', serif;
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 1.15;
+}
+
+.jewellery-img-border {
+	max-width: 334px;
+	height: 381px;
+	border: 2px solid #000000;
+	margin-bottom: 34px;
+}
+
+.jewellery-img {
+	display: block;
+	max-width: 334px;
+	height: 381px;
+	width: 100%;
+	margin: 9px 0 0 10px;
+}
+
+.jewellery-products {
+	display: inline-block;
+}
+.jewellery-left {
+	vertical-align: top;
+	display: inline-block;
+	padding-top: 32px;
+	margin-right: 55px;
+}
+.jewellery-right {
+	display: inline-block;
+}
+
+.jewellery-right h3 {
+	color: #000;
+	font-family: 'Cormorant Infant', serif;
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 1.13;
+}
+
+.jewellery-link {
+	color: #000;
+	font-family: 'Cormorant Infant', serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.4;
+	transition: 0.8s;
+}
+
+.jewellery-link:hover {
+	transition: 0.8s;
+	font-size: 30px;
+}
+
+.jewellery-text {
+	color: #000;
+	font-family: 'Cormorant Infant', serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+/* Проработка */
+.hover {
+	background-color: red;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	font-size: 20px;
+	margin: 0 auto;
+	transition: 0.8s;
+}
+
+.hover:hover {
+	background-color: blue;
+	text-decoration: underline;
+	transition: 0.8s;
+}
+
+.visit {
+	text-align: center;
+	margin-bottom: 30px;
+	color: #9a9a9a;
+}
+
+.hover a:active {
+	color: red;
+	text-transform: uppercase;
+}
+
+.visit a:visited {
+	color: rgb(133, 226, 178);
+}
+
+.visit a:focus {
+	outline: 4px green dashed;
+}
+
+.child {
+	text-align: center;
+	border: 2px solid rgb(9, 255, 0);
+	margin-bottom: 10px;
+}
+
+.child-nth p:first-child {
+	color: green;
+}
+
+.child-nth p:last-child {
+	color: blue;
+}
+
+.child-nth p:nth-child(4) {
+	color: aqua;
+}
+
+.child-nth p:first-child::before {
+	content: 'last,first,nth-child(4) ';
+}
+
+.child-odd p:first-child::before {
+	content: 'nth-child(odd) ';
+}
+
+.child-odd p:nth-child(odd) {
+	color: blueviolet;
+}
+
+.child-even p:first-child::before {
+	content: 'nth-child(even) ';
+}
+
+.child-even p:nth-child(even) {
+	color: rgb(202, 239, 15);
+}
+
+.not p:first-child::before {
+	content: 'not(:last-child) ';
+}
+
+.not p:not(:last-child) {
+	color: chocolate;
+	background-color: #4f1919;
+	margin-bottom: 10px;
+}
+
+.game {
+	margin: 0 auto 20px auto;
+	max-width: 500px;
+	height: 1000px;
+	border: 2px solid black;
+	padding: 20px;
+}
+
+.game h2 {
+	text-align: center;
+	color: blue;
+	font-size: 40px;
+}
+
+.game-line-1 {
+	width: 20px;
+	height: 100px;
+	background-color: rgb(0, 149, 255);
+	visibility: visible;
+}
+
+.game-line-2 {
+	width: auto;
+	height: 20px;
+}
+.line {
+	visibility: hidden;
+	background-color: rgb(0, 149, 255);
+}
+.game-line-3 {
+	margin-left: auto;
+	width: 20px;
+	height: 60px;
+}
+.game-line-4 {
+	margin-left: auto;
+	width: 52%;
+	height: 30px;
+}
+.game-line-5 {
+	margin: 0 auto;
+	width: 4%;
+	height: 250px;
+}
+.game-line-6 {
+	width: 52%;
+	height: 30px;
+}
+.game-line-7 {
+	width: 15px;
+	height: 250px;
+}
+
+.prize {
+	visibility: hidden;
+}
+
+.prize img {
+	width: 170px;
+	height: 170px;
+}
+
+.game-line-1:hover + .game-line-2 {
+	visibility: visible;
+}
+
+.game-line-2:hover + .game-line-3 {
+	visibility: visible;
+}
+
+.game-line-3:hover + .game-line-4 {
+	visibility: visible;
+}
+
+.game-line-4:hover + .game-line-5 {
+	visibility: visible;
+}
+
+.game-line-5:hover + .game-line-6 {
+	visibility: visible;
+}
+
+.game-line-6:hover + .game-line-7 {
+	visibility: visible;
+}
+
+.game-line-7:hover + .prize {
+	visibility: visible;
+}
+
+.line:hover {
+	visibility: visible;
+}
+.prize:hover {
+	visibility: visible;
+}
