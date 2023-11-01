@@ -1,0 +1,8 @@
+@import url('reset.css');
+body {
+	background-color: gray;
+}
+
+.vector-all {
+	margin-bottom: 20px;
+}
