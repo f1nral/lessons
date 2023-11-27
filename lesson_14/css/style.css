@@ -1,0 +1,265 @@
+@import url('reset.css');
+@import url('fonts.css');
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+.page__backgound {
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	min-height: 100%;
+	width: 100%;
+}
+
+[class*='__container'] {
+	max-width: 1220px;
+	margin: 0 auto;
+}
+[class*='car__'] {
+	position: absolute;
+}
+
+.car {
+	animation: movement 4s linear infinite;
+	z-index: 2;
+	top: 500px;
+	left: 0;
+	position: relative;
+	max-width: 1000px;
+	min-height: 200px;
+	perspective: 400px;
+	perspective-origin: 0 0;
+}
+
+.car__roof {
+	animation: roof 4s linear infinite;
+	height: 15px;
+	width: 350px;
+	background-color: rgb(98, 31, 98);
+	border: 5px black solid;
+	top: -50px;
+	left: 350px;
+	z-index: 3;
+}
+
+.car__item-roof {
+	z-index: 1;
+	height: 80px;
+	width: 20px;
+	background-color: rgb(98, 31, 98);
+	border: 5px black solid;
+	top: -5px;
+	left: -20px;
+	transform: rotate(30deg);
+}
+
+.car__bumper {
+	height: 30px;
+	width: 200px;
+	background-color: rgb(185, 185, 185);
+	border: 5px black solid;
+	border-radius: 50px;
+	z-index: 6;
+}
+
+.car__bumper--rear {
+	top: 110px;
+	left: 112px;
+}
+.car__bumper--front {
+	top: 110px;
+	left: 790px;
+	z-index: 4;
+}
+
+.car__wheel {
+	height: 70px;
+	width: 70px;
+	background-color: rgb(52, 52, 52);
+	border-radius: 50%;
+	outline: 6px dashed black;
+	z-index: 7;
+	animation: rotate 1s linear infinite;
+}
+.car__wheel--rear {
+	top: 85px;
+	left: 335px;
+}
+.car__wheel--front {
+	top: 85px;
+	left: 680px;
+}
+
+.car__item-wheel {
+	width: 100px;
+	height: 50px;
+	background-color: #494949;
+	border-radius: 50px 50px 0 0;
+	border-top: 5px black solid;
+	border-right: 5px black solid;
+	border-left: 5px black solid;
+	z-index: 6;
+}
+
+.car__item-wheel--rear {
+	top: 67px;
+	left: 320px;
+}
+.car__item-wheel--front {
+	top: 67px;
+	left: 665px;
+}
+
+.car__rear {
+	background-color: rgb(98, 31, 98);
+	height: 100px;
+	width: 500px;
+	border: 5px black solid;
+	transform: skew(-60deg);
+	left: 200px;
+	top: 20px;
+	z-index: 3;
+}
+.car__front {
+	background-color: rgb(98, 31, 98);
+	height: 100px;
+	width: 500px;
+	border-right: 5px black solid;
+	border-top: 5px black solid;
+	border-bottom: 5px black solid;
+	transform: skew(60deg);
+	left: 400px;
+	top: 20px;
+	z-index: 4;
+}
+
+.car__door {
+	height: 100px;
+	background-color: rgb(98, 31, 98);
+	border: 5px black solid;
+	width: 200px;
+	z-index: 5;
+}
+.car__door--rear {
+	top: 20px;
+	left: 350px;
+}
+.car__door--front {
+	top: 20px;
+	left: 540px;
+}
+
+.car__handlebar {
+	height: 10px;
+	width: 20px;
+	background-color: rgb(98, 31, 98);
+	border: 5px black solid;
+	border-radius: 20px;
+	z-index: 7;
+}
+.car__handlebar--left {
+	top: 50px;
+	left: 410px;
+}
+.car__handlebar--right {
+	top: 50px;
+	left: 600px;
+}
+
+.car__window {
+	height: 100px;
+	width: 30px;
+	background-color: rgb(185, 185, 185);
+	border: 5px black solid;
+	top: -56px;
+	left: 710px;
+	transform: rotateX(30deg);
+	z-index: 3;
+}
+
+.car__steering-wheel {
+	height: 50px;
+	width: 14px;
+	border: 5px black solid;
+	border-radius: 20px;
+	background-color: rgb(71, 71, 71);
+	top: -20px;
+	left: 690px;
+	transform: rotateX(10deg);
+}
+.car__seat {
+	background-color: rgb(184, 69, 184);
+	border-radius: 20px;
+	transform: rotateX(10deg);
+}
+.car__seat--front {
+	top: -35px;
+	border: 5px black solid;
+	left: 550px;
+	height: 100px;
+	width: 40px;
+}
+.car__seat--rear {
+	top: 0px;
+	left: 370px;
+	border-left: 5px black solid;
+	border-right: 5px black solid;
+	height: 90px;
+	width: 30px;
+}
+.car__item-seat {
+	height: 50px;
+	width: 30px;
+	background-color: rgb(184, 69, 184);
+	border-top: 5px black solid;
+	border-right: 5px black solid;
+	border-left: 5px black solid;
+	border-radius: 20px;
+	transform: rotate(30deg);
+	top: -40px;
+	left: 370px;
+}
+
+[class*='__title'] {
+	text-align: center;
+	font-size: 40px;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes movement {
+	0% {
+		transform: translate(-200%, 0px);
+	}
+	20% {
+		transform: translate(100px, 0px);
+	}
+	40% {
+		transform: translate(100px, 0px);
+	}
+	100% {
+		transform: translate(1200px, 0px);
+	}
+}
+
+@keyframes roof {
+	0% {
+		transform-origin: left bottom;
+		transform: rotate(-10deg);
+	}
+	100% {
+		transform-origin: left bottom;
+		transform: rotate(0deg);
+	}
+}
