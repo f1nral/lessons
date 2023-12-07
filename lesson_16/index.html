@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lesson_16</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h2 class="header__title">Lesson_16</h2>
+            <a class="header__link" href="#mail">Request A Call Back !</a>
+            <a class="header__link" href="#my-info">My Info</a>
+        </header>
+
+        <body class="page">
+            <div class="page__container">
+                <div id="mail" class="page__mail mail">
+                    <div class="mail__text">
+                        <h4 class="mail__sub-title">Contact Us</h4>
+                        <h2 class="mail__title">Request A Call Back !</h2>
+                    </div>
+                    <form action="#" class="mail__form form-mail">
+                        <div class="form-mail__body">
+                            <input required placeholder="Your Name" class="form-mail__input" name="name" type="text">
+                            <input required placeholder="Email Address" class="form-mail__input" name="email"
+                                type="email">
+                            <input required placeholder="Phone Number" class="form-mail__input" name="number"
+                                type="tel">
+                            <input required placeholder="Subject" class="form-mail__input" name="subject" type="text">
+                        </div>
+                        <textarea required placeholder="Message..." class="form-mail__message"
+                            name="message"></textarea>
+                        <button class="form-mail__button" type="submit">Submit</button>
+                    </form>
+                </div>
+
+                <div id="my-info" class="page__info info">
+                    <div class="info__container">
+                        <h2 class="info__title">My Info</h2>
+                        <h3 class="info__sub-title">Add Address</h3>
+                        <form action="#" class="info__form">
+                            <div class="info__inputs">
+                                <div class="info__item">
+                                    <label class="info__label" for="first-name">First Name*</label>
+                                    <input class="info__input" required placeholder="First Name" id="first-name"
+                                        name="first-name" type="text">
+                                </div>
+                                <div class="info__item">
+                                    <label class="info__label" for="last-name">Last Name*</label>
+                                    <input class="info__input" required placeholder="Last Name" id="last-name"
+                                        name="last-name" type="text">
+                                </div>
+                                <div class="info__item">
+                                    <label class="info__label" for="location">Country / Region*</label>
+                                    <input class="info__input" required placeholder="Country / Region" id="location"
+                                        name="location" type="text">
+                                </div>
+                                <div class="info__item">
+                                    <label class="info__label" for="company-name">Company Name</label>
+                                    <input class="info__input" required placeholder="Company (optional)"
+                                        id="company-name" name="company-name" type="text">
+                                </div>
+                                <div class="info__item">
+                                    <label class="info__label" for="street-address">Street Address*</label>
+                                    <input class="info__input" required placeholder="House number and street name"
+                                        id="street-address" name="street-address" type="text">
+                                </div>
+                                <div class="info__item">
+                                    <label class="info__label" for="apt">Apt, suite, unit</label>
+                                    <input class="info__input" required
+                                        placeholder="apartment, suite, unit, etc. (optional)" id="apt" name="apt"
+                                        type="text">
+                                </div>
+                                <div class="info__item">
+                                    <label class="info__label" for="city">City*</label>
+                                    <input class="info__input" required placeholder="Town / City" id="city" name="city"
+                                        type="text">
+                                </div>
+                                <div class="info__item">
+                                    <label class="info__label" for="state">State*</label>
+                                    <select class="info__list" name="state" id="state">
+                                        <option value="01">State</option>
+                                        <option value="02">Another state</option>
+                                        <option value="03">Another state</option>
+                                    </select>
+                                </div>
+                                <div class="info__item">
+                                    <label class="info__label" for="phone">Phone**</label>
+                                    <input class="info__input" required placeholder="Phone" id="phone" name="phone"
+                                        type="tel">
+                                </div>
+                                <div class="info__item">
+                                    <label class="info__label" for="code">Postal Code**</label>
+                                    <input class="info__input" required placeholder="Postal Code" id="code" name="code"
+                                        type="tel">
+                                </div>
+                            </div>
+                            <div class="info__text-block">
+                                <label class="info__label" for="info__text">Delivery Instruction</label>
+                                <textarea class="info__textarea" required name="delivery-instruction" id="info__text"
+                                    placeholder="Delivery Instruction"></textarea>
+                            </div>
+                            <div class="info__checkboxs">
+                                <div class="info__shipping-address checkbox">
+                                    <input class="checkbox__input" id="checkbox-01" type="checkbox">
+                                    <label class="checkbox__label" for="checkbox-01">Set as default shipping
+                                        address</label>
+                                </div>
+                                <div class="info__billing-address checkbox">
+                                    <input class="checkbox__input" id="checkbox-02" type="checkbox">
+                                    <label class="checkbox__label" for="checkbox-02">Set as default billing
+                                        address</label>
+                                </div>
+                            </div>
+                            <div class="info__buttons-block">
+                                <button class="info__save-button" type="submit">Save</button>
+                                <button class="info__reset-button" type="reset">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </body>
+        <footer class="footer">
+            <h2 class="footer__title">Footer</h2>
+        </footer>
+    </div>
+</body>
+
+</html>
